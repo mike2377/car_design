@@ -259,3 +259,156 @@ header {
   height: 48px;
   border: 1px solid #c3d4e966;
 }
+
+.popular-car-rent,
+.recommendation {
+  padding-bottom: 25px;
+}
+
+.popular,
+.recommendation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.popular h2,
+.recommendation h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #90a3bf;
+}
+
+.popular p {
+  width: 105px;
+  height: 44px;
+  border-radius: 4px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #3563e9;
+  color: #3563e9;
+  cursor: pointer;
+}
+
+.popular-car,
+.recommendation-car {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 32px;
+}
+
+.card {
+  width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.car-name {
+  width: 128;
+  height: 48;
+  gap: 4px;
+}
+
+.car-name h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -3%;
+  color: #1a202c;
+}
+
+.car-name p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #90a3bf;
+}
+
+.like i {
+  width: 24px;
+  height: 24px;
+  color: #90a3bf;
+}
+
+.rd i {
+  color: #f00;
+}
+
+.card-img {
+  padding: 65px 0;
+}
+
+.specification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #90a3bf;
+  margin-bottom: 10px;
+}
+
+.price h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.price h3 span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #90a3bf;
+}
+
+.price s {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #90a3bf;
+}
+
+.rent-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-rent-now {
+  width: 116px;
+  height: 44px;
+  border-radius: 4px;
+  padding: 10px;
+  gap: 8px;
+  background-color: #3563e9;
+}
+
+.btn-rent-now p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #fff;
+}
