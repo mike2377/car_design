@@ -413,6 +413,39 @@ header {
   color: #fff;
 }
 
+.btn-more {
+  width: 156px;
+  height: 44px;
+  border-radius: 4px;
+  padding: 12px;
+  gap: 8px;
+  background-color: #3563e9;
+  color: #fff;
+}
+
+.btn-more p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 550px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #90a3bf;
+}
+
 footer {
   padding: 32px;
 }
