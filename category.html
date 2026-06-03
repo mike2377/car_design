@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Category  Car-rent</title>
+  <title>Category Car-rent</title>
   <link rel="stylesheet" href="assets/css/category.css">
-  <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
+
 <body>
   <div class="container">
     <header>
@@ -49,8 +50,70 @@
     </header>
 
     <main class="content">
+      <div class="left-side-bar">
+
+        <div class="type-car">
+          <p>TYPE</p>
+
+          <label for="sport">
+            <input type="checkbox" name="sport" id="sport" checked> Sport <span>(10)</span>
+          </label>
+
+          <label for="suv">
+            <input type="checkbox" name="suv" id="suv" checked> SUV <span>(12)</span>
+          </label>
+
+          <label for="mpv">
+            <input type="checkbox" name="mpv" id="mpv"> MPV <span>(16)</span>
+          </label>
+
+          <label for="sedan">
+            <input type="checkbox" name="sedan" id="sedan"> Sedan <span>(20)</span>
+          </label>
+
+          <label for="coupe">
+            <input type="checkbox" name="coupe" id="coupe"> Coupe <span>(14)</span>
+          </label>
+
+          <label for="hatchback">
+            <input type="checkbox" name="hatchback" id="hatchback"> Hatchback <span>(14)</span>
+          </label>
+        </div>
+
+        <div class="capacity-car">
+          <p>CAPACITY</p>
+
+          <label for="two-person">
+            <input type="checkbox" name="two-person" id="two-person" checked> 2 Person <span>(10)</span>
+          </label>
+
+          <label for="four-person">
+            <input type="checkbox" name="four-person" id="four-person"> 4 Person <span>(14)</span>
+          </label>
+
+          <label for="six-person">
+            <input type="checkbox" name="six-person" id="six-person"> 6 Person <span>(12)</span>
+          </label>
+
+          <label for="more-person">
+            <input type="checkbox" name="more-person" id="more-person"> 8 or More <span>(16)</span>
+          </label>
+        </div>
+
+        <div class="price-car">
+          <p>PRICE</p>
+
+          <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+          <div class="price-m">Max. $100.00</div>
+        </div>
+
+      </div>
+
+
+      <div class="right-content"></div>
 
     </main>
   </div>
 </body>
+
 </html>

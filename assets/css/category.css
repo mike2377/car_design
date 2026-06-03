@@ -107,6 +107,57 @@ header {
 }
 
 .content {
-  padding: 32px;
   background-color: #f6f7f9;
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+  gap: 40px;
+}
+
+.left-side-bar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  background-color: #fff;
+  border: 1px solid #f3f5f7;
+}
+
+.type-car,
+.capacity-car,
+.price-car {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.type-car p,
+.capacity-car p,
+.price-car p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  color: #90a3bf;
+}
+
+.type-car label,
+.capacity-car label,
+.price-m {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.type-car label input,
+.capacity-car label input {
+  width: 18px;
+  height: 18px;
+}
+
+.type-car label span,
+.capacity-car label span{
+  color: #90a3bf;
 }
