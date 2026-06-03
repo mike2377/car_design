@@ -110,7 +110,7 @@ header {
   background-color: #f6f7f9;
   display: grid;
   grid-template-columns: 3fr 10fr;
-  gap: 40px;
+  gap: 25px;
 }
 
 .left-side-bar {
@@ -158,6 +158,89 @@ header {
 }
 
 .type-car label span,
-.capacity-car label span{
+.capacity-car label span {
   color: #90a3bf;
+}
+
+.right-content{
+  padding-right: 20px;
+}
+
+.filter {
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pick-up,
+.drop-off {
+  padding: 20px;
+  background-color: #fff;
+  width: 486px;
+  height: 132px;
+  border-radius: 10px;
+}
+
+#dropoff,
+#pickup {
+  width: 15px;
+  height: 15px;
+}
+
+.pick-up .radio-btn,
+.drop-off .radio-btn {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.switch {
+  color: #fff;
+  font-size: 20px;
+  background-color: #3563e9;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.switch i {
+  transform: rotate(90deg);
+  padding: 13px;
+}
+
+.selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.selection div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.selection div label {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.selection div select {
+  width: 128px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.selection div select option {
+  font-size: 12px;
+  color: #90a3bf;
+}
+
+.selection hr {
+  width: 0;
+  height: 48px;
+  border: 1px solid #c3d4e966;
 }
