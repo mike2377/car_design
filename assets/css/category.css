@@ -114,8 +114,8 @@ header {
 }
 
 .left-side-bar {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 15px;
   background-color: #fff;
   border: 1px solid #f3f5f7;
