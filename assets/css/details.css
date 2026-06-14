@@ -227,7 +227,7 @@ header {
   color: #1a202c;
 }
 
-.review {
+.note {
   align-items: center;
   font-weight: 500;
   font-size: 15px;
@@ -341,6 +341,88 @@ header {
   line-height: 150%;
   letter-spacing: -2%;
   color: #fff;
+}
+
+.reviews {
+  background-color: #fff;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.total-review {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  height: 28px;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1a202c;
+  padding: 25px;
+}
+
+.total-review span {
+  width: 44px;
+  height: 28px;
+  border-radius: 4px;
+  padding: 7px;
+  background-color: #3563e9;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+.review {
+  display: flex;
+  padding: 25px;
+  gap: 8px;
+}
+
+.imge img {
+  width: 56px;
+  height: 56px;
+  border-radius: 60px;
+}
+
+.profil-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.profil-name {
+  width: 128px;
+  height: 56px;
+  line-height: 150%;
+  gap: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1a202c;
+}
+
+.profil-name span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #90a3bf;
+}
+
+.profil-date {
+  width: 128px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+  line-height: 150%;
+  color: #90a3bf;
+  gap: 8px;
+}
+
+.profil-bot {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  color: #596780;
 }
 
 .popular {
