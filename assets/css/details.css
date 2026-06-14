@@ -163,83 +163,211 @@ header {
   padding-bottom: 25px;
 }
 
-.filter {
-  padding: 20px;
+.details {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 25px;
 }
 
-.pick-up,
-.drop-off {
-  padding: 20px;
-  background-color: #fff;
-  width: 450px;
-  height: 132px;
-  border-radius: 10px;
-}
-
-#dropoff,
-#pickup {
-  width: 15px;
-  height: 15px;
-}
-
-.pick-up .radio-btn,
-.drop-off .radio-btn {
-  font-weight: 600;
-  font-size: 17px;
-}
-
-.switch {
-  color: #fff;
-  font-size: 20px;
-  background-color: #3563e9;
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-}
-
-.switch i {
-  transform: rotate(90deg);
-  padding: 13px;
-}
-
-.selection {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-  margin-top: 10px;
-}
-
-.selection div {
+.views {
   display: flex;
   flex-direction: column;
+  gap: 25px;
+}
+
+.view {
+  background-image: url("../images/BG3.png");
+  background-color: #3563e9;
+  width: 475px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.others-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infos-card {
+  width: 475px;
+  height: 508px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.info-h {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 40px;
+}
+
+.car-namei {
+  width: 220;
+  height: 72;
   gap: 8px;
 }
 
-.selection div label {
+.car-name h2 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: -3%;
+  color: #1a202c;
 }
 
-.selection div select {
-  width: 115px;
-  height: 18px;
-  border: none;
-  background-color: transparent;
+.review {
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  gap: 8px;
+  color: #596780;
 }
 
-.selection div select option {
-  font-size: 12px;
+.like-red i {
+  font-size: 24px;
+  color: #f00;
+}
+
+.info-t {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  letter-spacing: -2%;
+  padding-bottom: 40px;
+}
+
+.specification-i {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #90a3bf;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.spec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spec span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #596780;
+}
+
+.pricei h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.pricei h3 span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
   color: #90a3bf;
 }
 
-.selection hr {
-  width: 0;
+.pricei s {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #90a3bf;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.info-btn {
+  width: 140px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 15px;
+  gap: 8px;
+  background-color: #3563e9;
+}
+
+.info-btn p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #fff;
+}
+
+.titles {
+  width: 372px;
+  height: 160px;
+  padding: 24px;
+  gap: 16px;
+}
+
+.titles h2 {
+  width: 372px;
+  height: 96px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: -3%;
+  color: #fff;
+}
+
+.titles p {
+  width: 284px;
   height: 48px;
-  border: 1px solid #c3d4e966;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #fff;
+}
+
+.popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.popular h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #90a3bf;
+}
+
+.popular p {
+  width: 105px;
+  height: 44px;
+  border-radius: 4px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #3563e9;
+  cursor: pointer;
 }
 
 .catalog-car {
