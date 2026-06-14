@@ -153,6 +153,14 @@ header {
   height: 18px;
 }
 
+.spec span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #596780;
+}
+
 .type-car label span,
 .capacity-car label span {
   color: #90a3bf;
@@ -258,14 +266,6 @@ header {
 .spec {
   display: flex;
   justify-content: space-between;
-}
-
-.spec span {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 150%;
-  letter-spacing: -2%;
-  color: #596780;
 }
 
 .pricei h3 {
