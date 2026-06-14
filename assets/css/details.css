@@ -161,6 +161,18 @@ header {
   color: #596780;
 }
 
+.total-review span {
+  width: 44px;
+  height: 28px;
+  border-radius: 4px;
+  padding: 7px;
+  background-color: #3563e9;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
 .type-car label span,
 .capacity-car label span {
   color: #90a3bf;
@@ -359,18 +371,6 @@ header {
   font-size: 20px;
   color: #1a202c;
   padding: 25px;
-}
-
-.total-review span {
-  width: 44px;
-  height: 28px;
-  border-radius: 4px;
-  padding: 7px;
-  background-color: #3563e9;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  color: #fff;
 }
 
 .review {
