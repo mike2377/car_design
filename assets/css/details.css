@@ -173,6 +173,12 @@ header {
   color: #fff;
 }
 
+.profil-name span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #90a3bf;
+}
+
 .type-car label span,
 .capacity-car label span {
   color: #90a3bf;
@@ -399,12 +405,6 @@ header {
   font-weight: 700;
   font-size: 20px;
   color: #1a202c;
-}
-
-.profil-name span {
-  font-weight: 500;
-  font-size: 14px;
-  color: #90a3bf;
 }
 
 .profil-date {
