@@ -109,7 +109,81 @@ header {
 .content {
   background-color: #f6f7f9;
   display: grid;
-  grid-template-columns: 3fr 9fr;
+  grid-template-columns: 5fr 3fr;
+  padding: 25px;
+}
+
+.left-side-bar {
+  gap: 20px;
+}
+
+.billing {
+  width: 852;
+  height: 336;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.billing-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-in {
+  width: 192px;
+  height: 48px;
+  gap: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -3%;
+  color: #1a202c;
+}
+
+.left-in span {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -2%;
+  color: #90a3bf;
+}
+
+.right-in {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -2%;
+  text-align: right;
+  color: #90a3bf;
+}
+
+.billing-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.billing-info label {
+  width: 386px;
+  height: 92px;
+  line-height: 150%;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -2%;
+  color: #1a202c;
+}
+
+.billing-info label input {
+  width: 386px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #f6f7f9;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -2%;
+  padding-left: 15px;
+  color: #90a3bf;
+  border: none;
 }
 
 footer {
