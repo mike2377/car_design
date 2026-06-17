@@ -325,7 +325,6 @@ header {
 
 .rent-sumh {
   font-weight: 700;
-  font-style: Bold;
   font-size: 20px;
   letter-spacing: -3%;
   color: #1a202c;
@@ -377,7 +376,7 @@ header {
 
 hr {
   height: 0;
-  border: solid 1px #C3D4E966;
+  border: solid 1px #c3d4e966;
 }
 
 .subtotal,
