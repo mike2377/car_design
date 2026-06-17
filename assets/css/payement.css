@@ -18,30 +18,7 @@ header {
   grid-template-columns: 1fr;
 }
 
-.header1 {
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.frame1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-}
-
-.last-update {
-  display: flex;
-  gap: 8px;
-}
-
-.last-update span {
-  font-weight: 700;
-}
-
-.header2 {
+.header {
   padding: 10px 0;
   display: grid;
   grid-template-columns: 6fr 6fr;
@@ -49,7 +26,7 @@ header {
   gap: 50px;
 }
 
-.frame2 {
+.frame {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: space-between;
@@ -57,7 +34,7 @@ header {
   gap: 12px;
 }
 
-.frame2 h2 {
+.frame h2 {
   color: #3563e9;
   font-size: 32px;
 }
